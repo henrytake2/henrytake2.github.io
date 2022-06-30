@@ -42,3 +42,26 @@ body{
     color: #2b2b2b;
     font-weight: 600;
 }
+
+.container{
+    padding: 2rem;
+    background-color: aqua;
+    height: 100%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.content h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.content p{
+    font-size: 1rem;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
