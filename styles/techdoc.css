@@ -82,6 +82,12 @@ body{
     .container .content img{
         width: 300px;
     }
+
+    .blog-heading h3{
+        font-size: 2rem;
+        color: #2b2b2b;
+        font-weight: 600;
+    }
 } 
 
 @media(max-width:1100px){
@@ -91,6 +97,12 @@ body{
 
     .container .content img{
         width: 300px;
+    }
+
+    .blog-heading h3{
+        font-size: 2rem;
+        color: #2b2b2b;
+        font-weight: 600;
     }
 
 }
@@ -107,5 +119,11 @@ body{
 
     .container .content img{
         width: 300px;
+    }
+
+    .blog-heading h3{
+        font-size: 2rem;
+        color: #2b2b2b;
+        font-weight: 600;
     }
 }

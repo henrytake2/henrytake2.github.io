@@ -79,12 +79,26 @@ body{
     .container{
         width: 300px;
     }
+
+    .blog-heading h3{
+        font-size: 2rem;
+        color: #2b2b2b;
+        font-weight: 600;
+    }
+    
 } 
 
 @media(max-width:1100px){
     .container{
         width:70%;
     }
+
+    .blog-heading h3{
+        font-size: 2rem;
+        color: #2b2b2b;
+        font-weight: 600;
+    }
+    
 }
 
 @media(max-width:550px){
@@ -96,4 +110,11 @@ body{
     #learning{
         padding:20px;
     }
+
+    .blog-heading h3{
+        font-size: 2rem;
+        color: #2b2b2b;
+        font-weight: 600;
+    }
+    
 }
