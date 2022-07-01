@@ -65,9 +65,21 @@ body{
     margin-bottom: 30px;
 }
 
+.container .content img {
+    width: auto;
+}
+
+.position-titles{
+    color: #a9a9a9;
+}
+
 @media(max-width:1250px){
  
     .container{
+        width: 300px;
+    }
+
+    .container .content img{
         width: 300px;
     }
 } 
@@ -76,6 +88,11 @@ body{
     .container{
         width:70%;
     }
+
+    .container .content img{
+        width: 300px;
+    }
+
 }
 
 @media(max-width:550px){
@@ -86,5 +103,9 @@ body{
     }
     #tech{
         padding:20px;
+    }
+
+    .container .content img{
+        width: 300px;
     }
 }
