@@ -45,6 +45,10 @@ body{
     font-weight: 600;
 }
 
+.blog-heading h3 span{
+    color: #9b9b9b;
+}
+
 .blog-container{
     padding-top: 4rem;
     display: flex;
@@ -71,6 +75,10 @@ body{
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.blog-img img:hover{
+    filter: grayscale(100);
 }
 
 .blog-text{
@@ -100,7 +108,7 @@ body{
 }
 
 .blog-text a:hover{
-    color: #c74242;
+    color: #9b9b9b;
     transition: all ease 0.3s;
 }
 
