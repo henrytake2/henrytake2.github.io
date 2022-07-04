@@ -28,8 +28,6 @@ body{
     justify-content: center;
     align-items: center;
     padding: 40px;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .blog-heading{
@@ -92,19 +90,10 @@ body{
     font-weight: 500;
     color: #272727;
 }
-.blog-text p{
-    color: #9b9b9b;
-    font-size: 0.9rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 20px 0px;
-}
 
 .blog-text a{
     color: #0f0f0f;
+    text-align: center;
 }
 
 .blog-text a:hover{
