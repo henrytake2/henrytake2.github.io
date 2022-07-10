@@ -21,7 +21,32 @@ body{
     font-family: poppins;
     background-color: rgba(255, 255, 255, 0.15);
 }
- 
+
+nav{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #2b2b2b;
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li a span{
+    color: #9b9b9b;
+    font-family: 'Lobster', cursive;
+}
+
 #identity{
     display: flex;
     flex-direction: column;
@@ -74,6 +99,10 @@ body{
         width: 300px;
     }
 
+    nav{
+        justify-content: center;
+    }
+    
     .blog-heading h3{
         font-size: 2rem;
         color: #2b2b2b;
@@ -103,6 +132,10 @@ body{
     }
     #identity{
         padding:20px;
+    }
+
+    nav{
+        justify-content: center;
     }
 
     .blog-heading h3{

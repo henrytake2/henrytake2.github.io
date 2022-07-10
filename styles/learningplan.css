@@ -18,21 +18,30 @@ body{
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-/* nav{
+nav{
+    display: flex;
+    justify-content: right;
     width: 100%;
-    height: 80px;
-    background: aqua;
+    height: 40px;
 }
 
 nav ul li{
     display: inline-block;
-    line-height: 80px;
+    padding: 10px 20px;
 }
 
 nav ul li a{
-    position: relative;
-    font-size: 1.25rem;
-} */
+    font-size: 24px;
+    text-decoration: none;
+    color: #2b2b2b;
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li a span{
+    color: #9b9b9b;
+    font-family: 'Lobster', cursive;
+}
 
 #learning{
     display: flex;
@@ -108,8 +117,13 @@ nav ul li a{
 } 
 
 @media(max-width:1100px){
+
     .container{
         width:70%;
+    }
+
+    nav{
+        justify-content: center;
     }
 
     .blog-heading h3{
@@ -126,8 +140,13 @@ nav ul li a{
         margin: 20px 10px;
         width: 100%;
     }
+
     #learning{
         padding:20px;
+    }
+
+    nav{
+        justify-content: center;
     }
 
     .blog-heading h3{
