@@ -14,7 +14,11 @@ ul{
 a{
     text-decoration: none;
 }
- 
+
+p{
+    font-family: sans-serif;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -97,6 +101,7 @@ nav ul li a span{
     font-size: 1rem;
     line-height: 20px;
     margin-bottom: 30px;
+    font-family: sans-serif;
 }
 
 .content span{

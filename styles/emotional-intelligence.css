@@ -11,6 +11,10 @@ ul{
     list-style: none;
 }
 
+p{
+    font-family: sans-serif;
+}
+
 a{
     text-decoration: none;
 }

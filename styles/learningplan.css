@@ -10,7 +10,11 @@
 a{
     text-decoration: none;
 }
- 
+
+p{
+    font-family: sans-serif;
+}
+
 body{
     margin: 0px;
     padding: 0px;
@@ -90,12 +94,14 @@ nav ul li a span{
 }
 
 .content h4{
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 5px;
+    color: #9b9b9b;
 }
 
 .content ul li{
     padding-top: 1rem;
+    font-family: sans-serif;
 }
 
 .content ul{
