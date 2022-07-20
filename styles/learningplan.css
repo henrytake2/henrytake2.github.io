@@ -78,6 +78,7 @@ nav ul li a span{
     display: flex;
     flex-direction: column;
     margin: 20px 0px;
+    margin-bottom: 1.5rem;
 }
 
 .content h1{
