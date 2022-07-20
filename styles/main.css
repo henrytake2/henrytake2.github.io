@@ -33,6 +33,10 @@ body{
     padding: 40px;
 }
 
+.blog-title{
+    font-family: 'Lobster', cursive;
+}
+
 .blog-heading{
     display: flex;
     flex-direction: column;
