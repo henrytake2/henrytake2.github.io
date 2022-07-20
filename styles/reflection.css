@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+ul{
+    list-style: none;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+ 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+ 
+nav{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #2b2b2b;
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul li a span{
+    color: #9b9b9b;
+    font-family: 'Lobster', cursive;
+}
+
+#reflect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.blog-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-heading h3{
+    font-size: 4rem;
+    color: #2b2b2b;
+    font-weight: 600;
+    font-family: 'Lobster', cursive;
+}
+
+.subtitle{
+    margin-bottom: 32px;
+}
+
+.container{
+    padding: 2rem;
+    height: 100%;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.container img {
+    width: fit-content;
+}
+
+.content h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.content p{
+    font-size: 1rem;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.container .content img {
+    width: auto;
+}
+
+.position-titles{
+    color: #a9a9a9;
+}
+
+@media(max-width:1250px){
+ 
+    .container{
+        width: 300px;
+    }
+
+    .container .content img{
+        width: 300px;
+    }
+
+    .blog-heading h3{
+        font-size: 2rem;
+        color: #2b2b2b;
+        font-weight: 600;
+    }
+} 
+
+@media(max-width:1100px){
+
+    .container{
+        width:70%;
+    }
+
+    nav{
+        justify-content: center;
+    }
+    
+    .container .content img{
+        width: 300px;
+    }
+
+    .blog-heading h3{
+        font-size: 2rem;
+        color: #2b2b2b;
+        font-weight: 600;
+    }
+
+}
+
+@media(max-width:550px){
+   
+    .container{
+        margin: 20px 10px;
+        width: 100%;
+    }
+
+    #reflect{
+        padding:20px;
+    }
+
+    .container img {
+        width: 300px;
+    }
+    
+    nav{
+        justify-content: center;
+    }
+
+    .blog-heading h3{
+        font-size: 2rem;
+        color: #2b2b2b;
+        font-weight: 600;
+    }
+}
